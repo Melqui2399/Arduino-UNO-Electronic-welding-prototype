@@ -3,6 +3,7 @@ Introduccion
 Este informe presenta los avances y desarrollo de una estación de soldadura automatizada diseñada por estudiantes de ingeniería de distintas ramas (mecánica, electrónica, informática y automatización). El sistema integra componentes mecánicos, sensores, motores, controladores y una interfaz programada sobre Arduino. El objetivo es crear una estación capaz de ejecutar movimientos precisos que simulen una operación de soldadura de forma semiautónoma, con posibilidad de automatización completa en futuras iteraciones.
 
 Integración Electrónica
+
 La estación usa una placa Arduino UNO como unidad de control. Los componentes integrados incluyen:
 Componente	Cantidad	Especificaciones
 Sensor ultrasónico (HC-SR04)	1	Detección de distancia
@@ -20,6 +21,7 @@ Para la validación, se revisa continuidad eléctrica, se miden voltajes clave y
 Siguiendo el enfoque VDI 2206, se hace una integración gradual: se conecta cada módulo por separado, probando su funcionamiento antes de ensamblar el sistema completo, asegurando estabilidad y seguridad operativa.
 
 Validaciones Múltiples (según VDI 2206)
+
 Se aplicó la metodología VDI 2206 para realizar validaciones por dominio:
 - Mecánico: verificado el movimiento lineal fluido tras ajustes.
 - Electrónico: prueba de continuidad, respuesta de sensores y control de potencia.
@@ -27,10 +29,12 @@ Se aplicó la metodología VDI 2206 para realizar validaciones por dominio:
 El sistema fue validado con soldaduras simuladas, obteniendo trayectorias coherentes. El controlador PID, por ahora manual, se planea automatizar en las siguientes fases.
 
 Consideraciones Adicionales
+
 Se prioriza la seguridad: el sistema cuenta con botón de paro y opera a bajo voltaje. Se enfatiza el uso educativo del proyecto para aprender conceptos de automatización y control embebido.
 Desde el punto de vista de sostenibilidad, se usaron materiales reutilizables y el sistema fue diseñado para ser modular y replicable. La documentación (diagramas, código, planos) está siendo almacenada para posibles mejoras o adaptaciones futuras.
 
 Conclusiones y Siguientes Pasos
+
 La estación de soldadura automatizada ha logrado integraciones mecánicas y electrónicas funcionales. Las pruebas iniciales confirman la viabilidad del concepto. Se identificaron mejoras necesarias como la incorporación de sensores de temperatura, una interfaz LCD y la automatización del controlador PID.
 En las semanas siguientes se espera:
 - Finalizar la automatización del proceso.
