@@ -1,4 +1,5 @@
 Introduccion
+
 Este informe presenta los avances y desarrollo de una estación de soldadura automatizada diseñada por estudiantes de ingeniería de distintas ramas (mecánica, electrónica, informática y automatización). El sistema integra componentes mecánicos, sensores, motores, controladores y una interfaz programada sobre Arduino. El objetivo es crear una estación capaz de ejecutar movimientos precisos que simulen una operación de soldadura de forma semiautónoma, con posibilidad de automatización completa en futuras iteraciones.
 
 Integración Electrónica
